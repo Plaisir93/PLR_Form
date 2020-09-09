@@ -1,0 +1,50 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id = "@+id/relativeLayout1"
+    android:layout_width = "fill_parent"
+    android:layout_height = "wrap_content"
+    android:background = "@color/Gray" >
+
+    <TextView
+        android:id = "@+id/no_tel_item"
+        android:layout_width = "0dp"
+        android:layout_height = "match_parent"
+        android:layout_weight = "1"
+        android:background = "@drawable/cell_shape"
+        android:ellipsize = "end"
+        android:padding = "5dp"
+        android:text = "@string/numero_tel"
+        android:singleLine = "true" />
+
+    <TextView
+        android:id = "@+id/type_tel_item"
+        android:layout_width = "0dp"
+        android:layout_height = "match_parent"
+        android:layout_weight = "2"
+        android:background = "@drawable/cell_shape"
+        android:ellipsize = "end"
+        android:padding = "5dp"
+        android:text = "@string/type_tel"
+        android:singleLine = "true" />
+
+    <TextView
+        android:id = "@+id/sp_moyen_prefere_contact_item"
+        android:layout_width = "0dp"
+        android:layout_height = "match_parent"
+        android:layout_weight = "1.5"
+        android:background = "@drawable/cell_shape"
+        android:ellipsize = "end"
+        android:padding = "5dp"
+        android:text = "@string/moyen_prefere_contact"
+        android:singleLine = "true" />
+
+    <TextView
+        android:id = "@+id/moyen_paiement_item"
+        android:layout_width = "0dp"
+        android:layout_height = "match_parent"
+        android:layout_weight = "1"
+        android:background = "@drawable/cell_shape"
+        android:ellipsize = "end"
+        android:padding = "5dp"
+        android:text = "@string/moncash_natcash"
+        android:singleLine = "true" />
+</LinearLayout>
